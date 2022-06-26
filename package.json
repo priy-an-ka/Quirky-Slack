@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@slack/bolt": "^2.4.1",
+    "@slack/web-api": "^5.14.0",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "natural": "^2.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "husky": "^4.3.6"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx eslint ."
+    }
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "name": "quirky-slack",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "version": "1.0.0"
+}
